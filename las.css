@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  color:white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Lcontainer{
+  margin-top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cd{
+  font-size: 100px;
+  color: red;
+}
+.bt1{
+  border: 0;
+  font-size: 30px;
+  background-color: white;
+  margin-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: btn1 , 1s;
+  color: red;
+  text-transform: uppercase;
+ 
+}
+.bt1:hover{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: red;
+  color:white;
+  
+}
+.bt1:active{
+  border-color: red;
+  background-color: white;
+  color: red;
+  border-radius: 50px;
+}
